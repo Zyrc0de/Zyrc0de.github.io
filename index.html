@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zeng | Software Engineer</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="header">
+    <nav class="nav">
+      <a href="index.html" class="nav-logo">zeng</a>
+      <button class="nav-toggle" aria-label="Toggle menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <ul class="nav-links">
+        <li><a href="index.html" class="active">Portfolio</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h1 class="hero-title">Hi, I'm Zeng</h1>
+      <p class="hero-tagline">Software Engineer | Cybersecurity Enthusiast</p>
+      <p class="hero-intro">
+        I build things and break things. By day I write code; by night I explore CTFs,
+        pentesting, and the darker corners of the web. Always learning.
+      </p>
+    </section>
+
+    <section class="about" id="about">
+      <h2>About</h2>
+      <p>
+        Software engineer with a passion for security. I've been tinkering with computers
+        since I was a kid—first making games, then breaking them. These days I focus on
+        web development, automation, and security research. When I'm not coding, you'll
+        find me on HackTheBox or diving into a new CTF challenge.
+      </p>
+    </section>
+
+    <section class="projects" id="projects">
+      <h2>Projects</h2>
+      <div class="project-grid">
+        <article class="project-card">
+          <h3>Custom Recon Tool</h3>
+          <p>
+            A Python CLI for subdomain enumeration and basic recon. Built for CTF prep
+            and bug bounty workflows. Uses async requests and multiple data sources.
+          </p>
+          <span class="project-tag">Python</span>
+        </article>
+        <article class="project-card">
+          <h3>CTF Writeups</h3>
+          <p>
+            Writeups and notes from various CTFs—web, forensics, crypto. Documenting
+            the journey and sharing what I learn along the way.
+          </p>
+          <span class="project-tag">Security</span>
+        </article>
+        <article class="project-card">
+          <h3>Port Scanner CLI</h3>
+          <p>
+            Lightweight port scanner with service detection. Educational project to
+            understand how nmap-style tools work under the hood.
+          </p>
+          <span class="project-tag">Rust</span>
+        </article>
+        <article class="project-card">
+          <h3>Secret Recipe Manager</h3>
+          <p>
+            Encrypted note-taking app for sensitive data. AES-256, local-first.
+            Because sometimes you need to keep things to yourself.
+          </p>
+          <span class="project-tag">JavaScript</span>
+        </article>
+      </div>
+    </section>
+
+    <section class="skills" id="skills">
+      <h2>Skills</h2>
+      <div class="skills-list">
+        <span class="skill">Python</span>
+        <span class="skill">JavaScript</span>
+        <span class="skill">Rust</span>
+        <span class="skill">Linux</span>
+        <span class="skill">Docker</span>
+        <span class="skill">Burp Suite</span>
+        <span class="skill">Wireshark</span>
+        <span class="skill">Git</span>
+        <span class="skill">SQL</span>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2025 Zeng. Built for the curious.</p>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
