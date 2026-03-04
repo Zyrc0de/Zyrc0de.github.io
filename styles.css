@@ -222,6 +222,17 @@ main h2 {
   opacity: 0.85;
 }
 
+.hobby-link {
+  font-size: 0.8rem;
+  color: var(--accent);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.hobby-link:hover {
+  color: var(--accent-hover);
+}
+
 /* --- Skills --- */
 .skills-list {
   display: flex;
