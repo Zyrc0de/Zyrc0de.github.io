@@ -133,6 +133,15 @@ main h2 {
   padding: 3rem 0 2rem;
 }
 
+.hero-avatar {
+  width: 96px;
+  height: 96px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid var(--border);
+  margin-bottom: 1rem;
+}
+
 .hero-title {
   font-size: 2rem;
   font-weight: 700;
